@@ -1,0 +1,55 @@
+img{
+    margin:0px;
+    padding:0px;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+div{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+button{
+    margin-left : 5px;
+    padding :10px 20px;
+    background-color: tomato;
+    border: 1px solid tomato;
+    border-radius: 10px;
+    font-weight: bold;
+}
+#insert-task-bar button:hover{
+    background-color: rgb(252, 78, 47);
+    border: 2px solid rgb(252, 78, 47);
+}
+input{
+    border: 2px solid tomato;
+    border-radius: 10px;
+    
+}
+.delete-icon{
+    width:3.5vh;
+    height: auto;   
+}
+.delete-button{
+    margin-left: 20px;
+    border:0px;
+    padding:1px 2px;   
+}
+.delete-button:hover{
+    background-color: rgb(252, 78, 47);
+    border: 1px solid rgb(252, 78, 47);
+}
+.todoText{
+    font-weight: bold;
+}
+.task-div{
+    justify-content: flex-start;
+    margin-left: -20vh;
+    align-items: center;
+}
+
+input:focus{
+    outline:none;
+    border: 2px solid rgb(252, 78, 47);
+}

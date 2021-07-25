@@ -2,29 +2,19 @@
 <html>
     <head>
         <title>Todo</title>
-        <style>
-            body{
-                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            }
-            div{
-                display: flex;
-                justify-content: center;
-            }
-            button{
-                margin-left : 5px;
-            }
-        </style>
-
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <div> <h1>Todo</h1> </div>
-        <div>
+        <div id="insert-task-bar">
             <input type="text" placeholder="Enter Task">
-            <button id="enter-item-button">Enter</button>
+            <button id="enter-item-button">Add Task</button>
         </div>
         <div>
             <ul>
-            <!-- Insert Here -->
+                <div id="taskList" class="task-div">
+
+                </div>
             </ul>
         </div>
     </body>
