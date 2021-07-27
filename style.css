@@ -37,7 +37,7 @@ input{
     padding:1px 2px;   
 }
 .delete-button:hover{
-    background-color: rgb(252, 78, 47);
+    background-color: rgb(252, 78, 46);
     border: 1px solid rgb(252, 78, 47);
 }
 .todoText{
